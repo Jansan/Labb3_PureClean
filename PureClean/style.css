@@ -1,6 +1,14 @@
-﻿body
-{
+﻿body{
+    background-color:lightslategray;
+    color:aliceblue;
+    font-size:87.5%; /*Base font size:14px*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.5;
+    margin:0;
+    padding:0;
+    text-align:left;
 }
-p{
+.body{
+    clear:both;
 
 }
