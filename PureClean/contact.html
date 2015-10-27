@@ -1,32 +1,118 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head lang="en">
     <meta charset="utf-8" />
-    <title>PureClean - Contact Us</title>
-    <link rel="stylesheet" type="text/css" href="contact.css"/>
+
+    <!--title is here -->
+    <title>Pure Clean</title>
+
+    <!--css link is here -->
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <!--<link rel="stylesheet" type="text/css" href="style.css" />-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body>
-    <div class="container">
-        <header>
-            
-        </header>
-        <div class="content">
+<body class="body">
+
+    <!---Logo is here -->
+    <header class="mainHeader">
+        <img src="img/logo.png" alt="logo" />
+
+        <!--menu is here-->
+        <nav>
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="mainContent">
+        <div class="Content">
             <h2>Contact Us</h2>
-        </div>
-        
+        <form id="contact-form" action="mailto:info@pureclean.com" method="post">
+            <label for="name">Full Name:</label><br/>
+            <input type="text" name="name" id="name" size="25" placeholder="Enter your full name"/><br />
+            <label for="email">Email:</label><br />
+            <input type="email" name="email" id="email" size="25" placeholder="Enter your email" /><br />
+            <label for="tel">Telephone:</label><br />
+            <input type="tel" name="name" id="tel" size="25" placeholder="Enter your telephone number" /><br />
+            <label for="message">Message:</label><br />
+            <textarea type="message" rows="5" cols="27" name="message" id="message" size="25" placeholder="Type your message!" ></textarea><br />
+            <button type="submit" value="Send">Send</button>
+            <button type="reset" value="Reset">Reset</button>
+
+        </form>           
+            
+
+        </div> <!--end contend class-->
+        <!----Top side bar-->
+        <aside class="top-sidebar">
+            <article>
+                <h2>First sidebar</h2>
+                <p>
+                    McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
+                    from a Lorem Ipsum passage, and going through
+                    the cites of the word in classical literature,
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
+                </p>
+            </article>
+        </aside>
+
+        <!----Top middle side bar-->
+        <aside class="middle-sidebar">
+            <article>
+                <h2>Sekunt sidebar</h2>
+                <p>
+                    McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up oneSydney
+                    College in Virginia, looked up one
+                    McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
+                    McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
 
 
+                </p>
+            </article>
+        </aside>
 
 
+        <!----Top bottom side bar-->
+        <aside class="bottom-sidebar">
+            <article>
+                <h2>Third sidebar</h2>
+                <p>
+                    McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
+                    from a Lorem Ipsum passage, and going through
+                    the cites of the word in classical literature,
+                    McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up one
+                    of the more obscure Latin words, consectetur,
+                </p>
+            </article>
+        </aside>
 
+    </div> <!--End of main contend-->
+    <!--Footer area-->
+    <footer class="mainFooter">
+        <p>Copyright &copy; 2015 <a href="http://pureclean.com">PureClean</a></p>
 
+    </footer>
 
-
-
-
-
-
-    </div><!--End of container-->
 </body>
 </html>
