@@ -148,13 +148,24 @@ a:hover{
 /*Contact Page Main Styles*/
 #contact-form {
     margin-left:20px;
+    float:left;
 }
 .Content h2 {
     margin-left:20px;
     font-weight:bold;
 }
 
-@media only  screen and (min-width:340px) and (max-width:780px) {
+.map {
+    float:right;
+    position:relative;
+    right:50px;
+}
+
+.contact_content p{
+    margin-left:20px;
+}
+
+@media only  screen and (min-width:150px) and (max-width:780px) {
     .body{
         width:90%;
         font-size:1.5em;

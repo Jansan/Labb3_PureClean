@@ -11,8 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		style.css = style.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{F7366083-E67D-4832-9BB8-35ADF92914D7}"
+	ProjectSection(SolutionItems) = preProject
+		logo.png = logo.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7366083-E67D-4832-9BB8-35ADF92914D7} = {C7F8E6B8-3486-4132-9A6D-F7D2E0D20BB6}
 	EndGlobalSection
 EndGlobal
