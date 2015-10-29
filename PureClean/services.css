@@ -161,6 +161,13 @@ a:hover{
     width:91%;
     margin:2% auto;
 }
+
+#aboutImg {
+    max-width:735px;
+    background-size:contain;
+    display:block;
+}
+
 @media only  screen and (min-width:340px) and (max-width:780px) {
     .body{
         width:90%;
@@ -233,5 +240,17 @@ a:hover{
     }
     .mainFooter p{
         width:68%;
+    }
+    
+#aboutImg {
+    width:99%;
+    background-size:contain;
+    display:block;
+}
+}
+@media only screen and (min-width:781px) and (max-width:1200px) {
+    #aboutImg {
+        width:99%;
+        display:block;
     }
 }
